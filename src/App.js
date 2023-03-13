@@ -21,8 +21,8 @@ function App() {
         }}>
           <Navbar />
           <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/Home' element={<Home />} />
+            <Route path='/' element={<People />} />
+            <Route path='/Home' element={<People />} />
             <Route path='/People' element={<People />} />
             <Route path='/Planets' element={<Planets />} />
             <Route path='/Starships' element={<Starships />} />
